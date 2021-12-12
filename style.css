@@ -1,0 +1,93 @@
+body {
+  margin: 0px;
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+h1,
+p {
+  margin: 0px;
+}
+/* Main */
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1000px;
+  margin: 100px auto 30px auto;
+}
+
+.card {
+  padding: 30px;
+}
+
+.card img {
+  margin-bottom: 25px;
+}
+
+.card h1 {
+  color: hsl(0, 0%, 95%);
+  margin-bottom: 25px;
+}
+
+.card p {
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 100px;
+}
+
+.card a {
+  padding: 10px 20px;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.card a:hover {
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.card1 {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
+}
+.card1 a {
+  color: hsl(31, 77%, 52%);
+}
+.card2 {
+  background-color: hsl(184, 100%, 22%);
+}
+.card2 a {
+  color: hsl(184, 100%, 22%);
+}
+.card3 {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0;
+}
+.card3 a {
+  color: hsl(179, 100%, 13%);
+}
+
+/* media */
+@media (max-width: 570px) {
+  main {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+  .card1 {
+    border-radius: 10px 10px 0 0;
+  }
+  .card3 {
+    border-radius: 0 0 10px 10px;
+  }
+}
+
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
