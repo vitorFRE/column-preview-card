@@ -25,5 +25,5 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- Solution URL: [Link](https://your-solution-url.com)
+- Solution URL: [Link](https://www.frontendmentor.io/solutions/responsive-column-preview-card-grid-D_FnlCKoy)
 - Live Site URL: [Link](https://clever-jang-4e6990.netlify.app/)
